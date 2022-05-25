@@ -1,0 +1,25 @@
+.my_face {
+  height:200px;
+  width:200px;
+  border-radius: 50%;
+}
+
+.my_job {
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+}
+
+.my_jess {
+    height:300px;
+    width:300px;
+    
+}
+.dad_n_i {
+    height:300px;
+    width:300px;
+}
+body{
+    background-color: #333;
+    color: whitesmoke;
+}

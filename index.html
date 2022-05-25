@@ -1,73 +1,125 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>simple website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="IMG_20190629_193840.jpg" type="image/IMG_20190629_193840.jpg"/>
+    
 </head>
-
-<body>
+    <body>
+       
     <main>
-        <section>
-            <h1>Biography</h1>
-            I am Jeffrey Onwordi, 41 years old dad, with two lovely kids, Zion and Jessica, a software developer
+        <nav>
+            <ul>
+                <li>
+                    <a href="#skills">My Skills</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a href="#work_experience">Work</a>
+                </li>
+            </ul>
+        </nav>
+       <div id="bio">
+        <h2 >Biography</h2>
+        <p>I am Jeff 41, with two lovely kids,<em> Zion</em> and <em><a href="index2.html">Jessica</a></em>. a software developer
             I enjoy coding with Javascript and Ruby on Rails. I enjoy building web applications, fixing bugs, deploying applications for business purpose. my spare times I enjoy natural photography
-            and listen to reggae music, solely to connect myself to the highest level.
-
-        </section>
-
-        <section>
-            Skills
-            I love using the following application:
-            html 
-            css
-            javascript
-
-            other Skills
-            Advanced javascript
-            C# 
-            Ruby
-            React
-            Git
-            mysql
-            terminal
-
-
-        </section>
-
-        <section>
-            my contact info:
-            Jeffrey Onwordi
-            73C Culverley road
-            Catford, London
-            tel: 07897486524
-            email: jonwor01@jonwordi.io 
-            linkedin: jonwor01.linkedin 
-            twitter: @jonwor01
-
-        </section>
-
-        <h2>Work Experience</h2>
+            and listen to reggae music, solely to connect myself to the highest level. </p> 
+            <img class="my_face" src="IMG_20190629_193840.jpg" alt="jeff">
         
-       <table>
-           <tr>
-               <td>Year</td>
-               <td>Employer</td>
-               <td>Job Role</td>
-           </tr>
-           <tr>
-               <td>2018-2022</td>
-               <td>BT/Openreach</td>
-               <td>Network Engineer</td>
-           </tr>
-       </table>
+        <p>Life has taught me to appreciate the little moment we take for granted, the freedom to be who we want to be is the ultimate goal of mankind but society has made us work so hard on things that don't matter. </p>
+               
+
+       </div>
+            
+       
+
+        
+           <div id="skills">
+            <h2 >Skills</h2> 
+                <p> I love using the following application:</p>
+                <ul class="front_end_skills">
+                    <li>html</li>
+                    <li>css</li>
+                    <li>javascript</li>
+                </ul>
+
+                <p>other Skills I possess includes:</p>
+                    <ul class="back_end_skills">
+                        <li>Advanced javascript</li>
+                        <li>React</li>
+                        <li>Ruby</li>
+                        <li>C# </li>
+                        <li>mysql</li>
+                        <li>terminal</li>
+                        <li>Git</li>
+                    </ul> 
+    
+
+           </div>
+           
+               
+
+                
+            
+       
+
+        <div id="contact" >
+            <h2>Contact Information</h2>
+            <address>
+                <p>73C Culverley road
+                    Catford, London</p>
+            </address>
+
+        </div>
+            
+            <dl>
+                <dt>Tel:</dt>
+                <dd>07897486524</dd>
 
 
+                <dt>email:</dt>
+                <dd><a href="https://www.google.co.uk/"> jonwor01@jonwordi.io</a> </dd>
 
+                <dt>linkedin:</dt>
+                <dd><a href="https://www.linkedin.com/"> jonwor01.linkedin </a></dd>
 
+                <dt>twitter</dt>
+                <dd>@jonwor01</dd>
+                
+            </dl> 
 
+        
+<div id="work_experience">
+    <h2>Work Experience</h2>
+        
+            <table>
+                <tr>
+                    <td>Year</td>
+                    <td>Employer</td>
+                    <td>Job Role</td>
+                </tr>
+                <tr>
+                    <td>2018-2022</td>
+                    <td>BT/Openreach</td>
+                    <td><img class="my_job" src="IMG_5718.jpg" alt="Network Engineer"/></td>
+                </tr>
+            </table>
 
+            <div>
+                <p>Learning to code has been a passion for over 10 years. Hard work is key to cracking into the development space.</p>
+            
+
+            </div>
+            
+
+</div>
 
     </main>
 
-    
-</body>
+    &lt;&lt; &copy;<a href="index3.html"> Jeff O</a>&gt;&gt;
+    </body>
 </html>
